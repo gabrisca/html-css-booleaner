@@ -22,13 +22,26 @@ main{
   margin: auto;
 }
 
+.high h4, .high h6{
+  margin-top: -20px;
+}
+
+h4, h6{
+  color: #949494;
+}
+
 .high h1{
   font-size: 40px;
 }
 
 .high p{
-  /* margin-top: -15px; */
-  color: #949494;
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+a{
+  text-decoration: none;
+  color: #44B6E9;
 }
 
 main span{
@@ -78,6 +91,3 @@ section.low p{
   font-size: 20px;
 }
 
-h4{
-  color: #949494;
-}
