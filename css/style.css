@@ -1,3 +1,83 @@
 *{
   box-sizing: border-box;
 }
+
+body{
+  background-image: white;
+}
+
+header{
+  width: 100%;
+  background-color: #4C9FFF;
+  background-image: url(../img/pattern.png);
+}
+
+header img{
+  width: 200px;
+  margin: 70px auto 50px 100px;
+}
+
+main{
+  width: 85%;
+  margin: auto;
+}
+
+.high h1{
+  font-size: 40px;
+}
+
+.high p{
+  /* margin-top: -15px; */
+  color: #949494;
+}
+
+main span{
+  background-color: #FFFF00;
+}
+
+.middle table{
+  width: 100%;
+  text-align: left;
+}
+
+thead{
+  background-color: #23A9E5;
+  color: white;
+}
+
+th.cella_stretta{
+  width: 25%;
+}
+
+th.cella_larga{
+  width: 50%;
+}
+
+tr.riga_dispari{
+  background-color: #B1E5F2;
+}
+
+section .monitor{
+  width: 312px;
+  height: 208px;
+  background-image: url(../img/monitor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section .graph{
+  width: 312px;
+  height: 208px;
+  background-image: url(../img/graph.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.low p{
+  color: white;
+  font-size: 20px;
+}
+
+h4{
+  color: #949494;
+}
