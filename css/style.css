@@ -1,76 +1,83 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   background-image: white;
 }
 
-header{
+header {
   width: 100%;
-  background-color: #4C9FFF;
+  background-color: #4c9fff;
   background-image: url(../img/pattern.png);
 }
 
-header img{
+header img {
   width: 200px;
   margin: 70px auto 50px 100px;
 }
 
-main{
+main {
   width: 85%;
   margin: auto;
 }
 
-.high h4, .high h6{
+.high h4,
+.high h6 {
   margin-top: -20px;
 }
 
-h4, h6{
+h4,
+h6 {
   color: #949494;
 }
 
-.high h1{
+.high h1 {
   font-size: 40px;
 }
 
-.high p{
+.high p {
   font-size: 11px;
   margin-top: -5px;
 }
 
-a{
+a {
   text-decoration: none;
-  color: #44B6E9;
+  color: #44b6e9;
 }
 
-main span{
-  background-color: #FFFF00;
+main span {
+  background-color: #ffff00;
 }
 
-.middle table{
+.middle ul {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.middle table {
   width: 100%;
   text-align: left;
 }
 
-thead{
-  background-color: #23A9E5;
+thead {
+  background-color: #23a9e5;
   color: white;
 }
 
-th.cella_stretta{
+th.cella_stretta {
   width: 25%;
 }
 
-th.cella_larga{
+th.cella_larga {
   width: 50%;
 }
 
-tr.riga_dispari{
-  background-color: #B1E5F2;
+tr.riga_dispari {
+  background-color: #b1e5f2;
 }
 
-section .monitor{
+section .monitor {
   width: 312px;
   height: 208px;
   background-image: url(../img/monitor.jpg);
@@ -78,7 +85,7 @@ section .monitor{
   background-repeat: no-repeat;
 }
 
-section .graph{
+section .graph {
   width: 312px;
   height: 208px;
   background-image: url(../img/graph.jpg);
@@ -86,8 +93,7 @@ section .graph{
   background-repeat: no-repeat;
 }
 
-section.low p{
+section.low p {
   color: white;
   font-size: 20px;
 }
-
